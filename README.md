@@ -6,7 +6,7 @@ It shares some of the same goals of programs like launchd, daemontools, and runi
 systemd is controversial for several reasons: It’s a replacement for something that a lot of Linux users don’t think needs to be replaced, and the antics of the systemd developers have not won hearts and minds. But rather the opposite, as evidenced in this famous LKML thread where Linus Torvalds banned systemd dev Kay Sievers from the Linux kernel.
 
 ### FLOW
-DIR: /lib/systemd/system/supervisord.service
+DIR: /usr/lib/systemd/system/supervisord.service
 ```bash
 systemctl enable supervisord.service
 ```
